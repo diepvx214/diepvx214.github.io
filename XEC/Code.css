@@ -1,0 +1,276 @@
+/*BEGIN Xbox One Controller Styling*/
+.controller.xbox {
+    background: url(base.png);
+    height: 630px;
+    width: 750px;
+    /*    margin-left: -375px;
+        margin-top: -285px;*/
+}
+
+.xbox.white {
+    background: url(xbox-assets/base-white.svg);
+}
+
+.xbox.disconnected {
+    background: url(xbox-assets/disconnected.svg);
+}
+
+.xbox.disconnected div {
+    display: none;
+}
+
+.xbox .triggers {
+    width: 448.4px;
+    height: 121px;
+    position: absolute;
+    left: 151px;
+    top: 1px;
+}
+
+.xbox .trigger {
+    width: 89px;
+    height: 121px;
+    background: url(trigger.png);
+    opacity: 0;
+}
+
+.xbox .trigger.left {
+    float: left;
+    background-position: 0 0;
+}
+
+.xbox .trigger.right {
+    float: right;
+    transform: rotateY(180deg);
+}
+
+.xbox .bumper {
+    width: 170px;
+    height: 61px;
+    background: url(bumper.png);
+    opacity: 0;
+}
+
+.xbox .bumpers {
+    position: absolute;
+    width: 534px;
+    height: 61px;
+    left: 108px;
+    top: 126px;
+}
+
+.xbox .bumper.pressed {
+    opacity: 1;
+}
+
+.xbox .bumper.left {
+    float: left;
+}
+
+.xbox .bumper.right {
+    float: right;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.xbox .quadrant {
+    position: absolute;
+    background: url();
+    height: 45px;
+    width: 45px;
+    top: 258px;
+    left: 354px;
+    z-index: 0;
+}
+
+.xbox .p0 {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.xbox .p1 {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.xbox .p2 {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.xbox .p3 {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.xbox .arrows {
+    position: absolute;
+    width: 141px;
+    height: 33px;
+    top: 264px;
+    left: 306px;
+}
+
+.xbox .back, .xbox .start {
+    background: url(start-select.png);
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: -4px;
+    top: -6px;
+    opacity: 0;
+}
+
+.xbox .back.pressed, .xbox .start.pressed {
+    opacity: 1;
+}
+
+.xbox .back {
+    float: left;
+}
+
+.xbox .start {
+    background-position: 35px 0px;
+    left: 107px;
+    float: right;
+}
+
+xbox .abxy {
+    position: absolute;
+    width: 153px;
+    height: 156px;
+    top: 192px;
+    left: 488px;
+}
+
+.xbox .button {
+    position: absolute;
+    background: url(abxy.png);
+    width: 52px;
+    height: 52px;
+}
+
+.xbox .button.pressed {
+    background-position-y: -55px;
+    margin-top: 2px;
+    opacity: 1;
+}
+
+.xbox .a {
+    background-position: 0 0;
+    top: 108px;
+    left: 53px;
+}
+
+.xbox .b {    
+    background-position: left -54px top -1px;
+    width: 51px;
+    height: 52px;
+    top: 61px;
+    left: 106px;
+}
+
+.xbox .x {
+    background-position: left -106px top -1px;
+    width: 52px;
+    height: 52px;
+    top: 59px;
+    left: 3px;
+}
+
+.xbox .y {
+    background-position: left -158px top -2px;
+    width: 52px;
+    height: 52px;
+    left: 54px;
+    top: 9px;
+}
+
+.xbox .sticks {
+    position: absolute;
+    width: 371px;
+    height: 196px;
+    top: 232px;
+    left: 141px;
+}
+
+.xbox .stick {
+    position: absolute;
+    background: url(stick.png);
+    background-position: -85px 0;
+    height: 83px;
+    width: 83px;
+}
+
+.xbox .stick.pressed {
+    background-position: 0 0;
+}
+
+.xbox .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.xbox .stick.right {
+    top: 118px;
+    left: 290px;
+}
+
+.xbox .dpad {
+    position: absolute;
+    width: 110px;
+    height: 111px;
+    top: 345px;
+    left: 223px;
+}
+
+.xbox .face {
+    background: url(dpad.png);
+    position: absolute;
+    opacity: 0;
+}
+
+.xbox .face.pressed {
+    opacity: 1;
+}
+
+.xbox .face.up {
+    background-position: left -49px top 0px;
+    left: 30px;
+    top: -10px;
+    width: 47px;
+    height: 42px;
+}
+
+.xbox .face.down {
+    background-position: left -1px top 0px;
+    left: 30px;
+    top: 76px;
+    width: 47px;
+    height: 42px;
+}
+
+.xbox .face.left {
+    background-position: left 0px top 47px;
+    width: 40px;
+    height: 47px;
+    left: -10px;
+    top: 33px;
+}
+
+.xbox .face.right {
+    background-position: left 0px top 98px;
+    width: 40px;
+    height: 47px;
+    left: 75px;
+    top: 30px;
+}
+.xbox.half {
+    margin-top: -315px;
+}
+
+.xbox {
+    background: no-repeat center;
+}
+
+/*END Xbox One Controller Styling*/
