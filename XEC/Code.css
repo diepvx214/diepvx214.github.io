@@ -40,8 +40,8 @@
 }
 
 .xbox .bumper {
-    width: 170px;
-    height: 81px;
+    width: 100px;
+    height: 61px;
     background: url(bumper.png);
     opacity: 0;
 }
@@ -49,7 +49,7 @@
 .xbox .bumpers {
     position: absolute;
     width: 536px;
-    height: 81px;
+    height: 61px;
     left: 107px;
     top: 129px;
 }
