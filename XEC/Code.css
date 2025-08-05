@@ -45,18 +45,18 @@
 }
 
 .xbox .bumper {
-    width: 170px;
-    height: 61px;
+    width: 180px;
+    height: 69px;
     background: url(bumper.png);
     opacity: 0;
 }
 
 .xbox .bumpers {
     position: absolute;
-    width: 534px;
+    width: 548px;
     height: 61px;
-    left: 108px;
-    top: 126px;
+    left: 101px;
+    top: 123px;
 }
 
 .xbox .bumper.pressed {
